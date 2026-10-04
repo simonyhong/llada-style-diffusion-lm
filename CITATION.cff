@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this educational implementation, please cite this repository and the original LLaDA paper."
+title: "Educational LLaDA-style Diffusion Language Model"
+type: software
+authors:
+  - family-names: "Hong"
+    given-names: "Simon"
+version: "1.0.0"
+date-released: "2026-10-03"
+license: "MIT"
+abstract: >-
+  A compact TensorFlow/Keras educational implementation of a masked
+  discrete-diffusion language model inspired by LLaDA, with explicit forward
+  masking, masked-token training, iterative denoising, confidence-based
+  remasking, optional classifier-free guidance, EMA evaluation, and
+  pedagogical quick/full training presets.
+keywords:
+  - diffusion language model
+  - LLaDA
+  - masked diffusion
+  - TensorFlow
+  - Keras
+  - language modeling
+  - education
+references:
+  - type: article
+    title: "Large Language Diffusion Models"
+    authors:
+      - family-names: "Nie"
+        given-names: "Shen"
+      - family-names: "Zhu"
+        given-names: "Fengqi"
+      - family-names: "You"
+        given-names: "Zebin"
+      - family-names: "Zhang"
+        given-names: "Xiaolu"
+      - family-names: "Ou"
+        given-names: "Jingyang"
+      - family-names: "Hu"
+        given-names: "Jun"
+      - family-names: "Zhou"
+        given-names: "Jun"
+      - family-names: "Lin"
+        given-names: "Yankai"
+      - family-names: "Wen"
+        given-names: "Ji-Rong"
+      - family-names: "Li"
+        given-names: "Chongxuan"
+    year: 2025
+    url: "https://arxiv.org/abs/2502.09992"
