@@ -4,6 +4,10 @@ A compact TensorFlow/Keras implementation of a **masked discrete-diffusion langu
 
 This repository is intended for learning and experimentation. It is deliberately described as **LLaDA-style**, not as a drop-in reproduction of the official implementation.
 
+## Why this repo?
+
+The official LLaDA repository provides pretrained models, inference, evaluation, and training guidelines, but not a full training framework. This repository complements it with a small TensorFlow/Keras implementation that can be **read, modified, trained, and inspected end-to-end**, making it especially useful for learning and experimentation.
+
 ## What it implements
 
 The notebook includes:
